@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #734815;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -1742,7 +1742,7 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Jost", sans-serif;
-  color: #5e5e5e;
+  color: #ffffff;
 }
 
 #footer .footer-top h4 {
@@ -1781,7 +1781,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #777777;
+  color: #ffffff;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
@@ -1789,7 +1789,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #734815;
+  color: #ffffff;
 }
 
 #footer .footer-top .social-links a {
