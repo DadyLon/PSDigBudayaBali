@@ -27,6 +27,9 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    #more {display: none;}
+    </style>
 
 </head>
 
@@ -44,6 +47,7 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#event">Event</a></li>
           <li><a class="nav-link scrollto" href="#portfolio">Gallery</a></li>
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
           <li><a class="getstarted scrollto" href="#login">Login</a></li>
@@ -88,7 +92,7 @@
 
         <div class="row content">
           <div class="col-lg-6">
-            <img src="assets/img/jumbotron.png" class="img-fluid animated" alt="">
+            <img src="assets/img/jumbotron1.png" class="img-fluid animated" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <div id="summary">
@@ -98,16 +102,50 @@
               Keanekaragaman budaya yang ada di Indonesia merupakan salah satu kebanggaan warisan kebudayaan yang turun temurun oleh berbagai suku dan etnis. Kebudayaan bisa diwarisi jika dipelajari dan disosialisasikan dengan baik ke masyarakat. Kekuatan yang terbesar yang dimiliki Indonesia terletak pada kekayaan budaya beragam. Dalam melestarikan budaya, peran pemerintah dan masyarakat sudah sepatutnya dikembangkan. Digitalisasi budaya merupakan suatu langkah untuk mempertahankan warisan budaya agar tetap ada, dikenal, dan mampu diterapkan dalam setiap  aspek kehidupan.
               Pusat Studi Digitalisasi Budaya Bali merupakan lintas keilmuan yang bergerak dalam merancang, meneliti, mengkaji dan mempublikasikan berbagai temuan berbasis budaya yang sejalan dengan visi dan misi dari STMIK STIKOM Indonesia. Pengajuan Pusat Studi Digitalisasi Budaya Bali mengacu pada Peraturan Menteri Riset Dan Sastra Bali Serta Penyelenggaraan Bulan Bahasa Bali
             </p>
-            <p class="collapse" id="collapseSummary">
-              Peluang – peluang penelitian yang mampu diterapkan dalam digitalisasi warisan budaya antara lain: 1. Digitalisasi naskah dan lontar kuno, bangunan, tarian, benda pusaka, artfak, ke dalam berbagai media. 2. Melakukan kajian dan analisis terhadap penerapan teknologi dalam digitalisasi warisan budaya sehingga diharapkan hasil kajian mampu menjadi kebijakan yang bermanfaat untuk masyarakat dalam menjaga warisan budaya. 3. Mengadakan Seminar Nasional atau International, sosialisasi, pelatihan dan publikasi terkait ruang lingkup pusat studi Digitalisasi Budaya Bali.
-            </p>
-            <a class="btn-learn-more collapsed" data-toggle="collapse" href="#collapseSummary" aria-expanded="false" aria-controls="collapseSummary"></a>
+            <p>
+              Peluang – peluang penelitian yang mampu diterapkan dalam digitalisasi warisan budaya antara lain: 1. Digitalisasi naskah dan lontar kuno, bangunan, tarian, benda pusaka, artfak, ke dalam berbagai media.<span id="dots">...</span><span id="more"> 2. Melakukan kajian dan analisis terhadap penerapan teknologi dalam digitalisasi warisan budaya sehingga diharapkan hasil kajian mampu menjadi kebijakan yang bermanfaat untuk masyarakat dalam menjaga warisan budaya. 3. Mengadakan Seminar Nasional atau International, sosialisasi, pelatihan dan publikasi terkait ruang lingkup pusat studi Digitalisasi Budaya Bali.</span></p>
+            <a class="btn btn-primary "onclick="myFunction()" id="myBtn"> Read More</a>
           </div>
           </div>
         </div>
 
       </div>
     </section><!-- End About Us Section -->
+
+    <!-- ======= event Section ======= -->
+    <section id="event" class="event">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Event</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae sed posuere duis ac. Nibh enim sollicitudin purus egestas etiam ornare at vulputate malesuada. Sagittis risus nunc pulvinar arcu purus pellentesque.</p>
+        </div>
+
+        <div class="isi-event"  style="padding-left: 20px;">
+<div class="row">
+        <div class="card" style="width: 23rem;">
+          <img class="card-img-top" src="assets/img/event/event.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img class="card-img-top" src="assets/img/event/event.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+        <div class="card" style="width: 23rem;">
+          <img class="card-img-top" src="assets/img/event/event.jpg" alt="Card image cap">
+          <div class="card-body">
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+</div>
+</div>
+        <!-- Carousel wrapper -->
+</div>
+    </section><!-- End event Section -->
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
@@ -117,105 +155,6 @@
           <h2>Gallery</h2>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vitae sed posuere duis ac. Nibh enim sollicitudin purus egestas etiam ornare at vulputate malesuada. Sagittis risus nunc pulvinar arcu purus pellentesque.</p>
         </div>
-
-        <!-- <ul id="portfolio-flters" class="d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-          <li data-filter="*" class="filter-active">All5</li>
-          <li data-filter=".filter-subak">Subak</li>
-          <li data-filter=".filter-geopark">Geopark</li>
-          <li data-filter=".filter-dok">Dokumentasi</li>
-        </ul> -->
-
-        <!-- <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-subak">
-            <div class="portfolio-img"><img src="assets/img/subak/subak1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Subak 1</h4>
-              <p>Subak</p>
-              <a href="assets/img/subak/subak1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Subak 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-subak">
-            <div class="portfolio-img"><img src="assets/img/subak/subak2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Subak 2</h4>
-              <p>Subak</p>
-              <a href="assets/img/subak/subak2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Subak 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-subak">
-            <div class="portfolio-img"><img src="assets/img/subak/subak3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Subak 3</h4>
-              <p>Subak</p>
-              <a href="assets/img/subak/subak3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Subak 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-subak">
-            <div class="portfolio-img"><img src="assets/img/subak/subak4.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Subak 4</h4>
-              <p>Subak</p>
-              <a href="assets/img/subak/subak4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Subak 4"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-geopark">
-            <div class="portfolio-img"><img src="assets/img/geopark/geo1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Geopark 1</h4>
-              <p>Geopark</p>
-              <a href="assets/img/geopark/geo1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Geopark 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dok">
-            <div class="portfolio-img"><img src="assets/img/dok/dok1.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Dokumentasi 1</h4>
-              <p>Dokumentasi</p>
-              <a href="assets/img/dok/dok1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dokumentasi 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-geopark">
-            <div class="portfolio-img"><img src="assets/img/geopark/geo2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Geopark 2</h4>
-              <p>Geopark</p>
-              <a href="assets/img/geopark/geo2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Geopark 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-geopark">
-            <div class="portfolio-img"><img src="assets/img/geopark/geo3.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Geopark 3</h4>
-              <p>geopark</p>
-              <a href="assets/img/geopark/geo3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Geopark 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-dok">
-            <div class="portfolio-img"><img src="assets/img/dok/dok2.jpg" class="img-fluid" alt=""></div>
-            <div class="portfolio-info">
-              <h4>Dokumentasi 2</h4>
-              <p>Dokumentasi</p>
-              <a href="assets/img/dok/dok2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Dokumentasi 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-        </div> -->
 
         <!-- Carousel wrapper -->
         <div class="container">
@@ -294,90 +233,6 @@
 </div>
     </section><!-- End Portfolio Section -->
 
-    <!-- ======= Team Section ======= -->
-    <!-- <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-6">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
-              <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4 mt-lg-0">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
-              <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
-              <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-6 mt-4">
-            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
-              <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt=""></div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div class="social">
-                  <a href=""><i class="ri-twitter-fill"></i></a>
-                  <a href=""><i class="ri-facebook-fill"></i></a>
-                  <a href=""><i class="ri-instagram-fill"></i></a>
-                  <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section> -->
-    <!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
@@ -452,8 +307,7 @@
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    <div class="footer-newsletter">
+<!-- <div class="footer-newsletter">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-lg-6">
@@ -463,59 +317,6 @@
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Arsha</h3>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Social Networks</h4>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
         </div>
       </div>
     </div> -->
@@ -548,7 +349,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read More"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read More"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
 </body>
 
 </html>

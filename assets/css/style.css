@@ -390,10 +390,12 @@ p {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  height: 100vh;
+  height: 100%;
   background: rgb(115, 88, 21,0.7);
-  background-image: url("../img/jumbotron.png");
+  background-image: url("../img/jumbotronfix.jpg");
   background-repeat: no-repeat;
+  background-size: 1347px 548px;
+  /* background-position-y:-220px ; */
   /* background: #734915ad; */
 
 }
@@ -652,7 +654,7 @@ section {
   text-decoration: none;
 }
 #summary {
-  font-size: 18px;
+  font-size: 14px;
   line-height: 1.5;
 }
 
