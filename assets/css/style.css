@@ -390,11 +390,11 @@ p {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  height: 100%;
+  height: 100vh;
   background: rgb(115, 88, 21,0.7);
-  background-image: url("../img/jumbotronfix.jpg");
+  background-image: url("../img/jumbotronfix2.jpg");
   background-repeat: no-repeat;
-  background-size: 1347px 548px;
+  background-size: 1347px 100vh;
   /* background-position-y:-220px ; */
   /* background: #734915ad; */
 
@@ -446,8 +446,12 @@ p {
 
 @media (max-width: 991px) {
   #hero {
-    height: 100vh;
+    height: 112vh;
     text-align: center;
+    background-image: url("../img/jumbotronfix2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1347px 112vh;
+    background-position: center;
   }
 
   #hero .animated {
