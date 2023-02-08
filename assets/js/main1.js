@@ -1,6 +1,6 @@
 /**
-* Template Name: Arsha - v4.9.1
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
+* Template Name: Bikin - v4.10.0
+* Template URL: https://bootstrapmade.com/bikin-free-simple-landing-page-template/
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
@@ -72,22 +72,6 @@
       top: elementPos - offset,
       behavior: 'smooth'
     })
-  }
-
-  /**
-   * Toggle .header-scrolled class to #header when page is scrolled
-   */
-  let selectHeader = select('#header')
-  if (selectHeader) {
-    const headerScrolled = () => {
-      if (window.scrollY > 100) {
-        selectHeader.classList.add('header-scrolled')
-      } else {
-        selectHeader.classList.remove('header-scrolled')
-      }
-    }
-    window.addEventListener('load', headerScrolled)
-    onscroll(document, headerScrolled)
   }
 
   /**
@@ -165,30 +149,6 @@
   }
 
   /**
-   * Initiate  glightbox 
-   */
-  const glightbox = GLightbox({
-    selector: '.glightbox'
-  });
-
-  /**
-   * Skills animation
-   */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function(direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
-
-  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -243,15 +203,44 @@
   });
 
   /**
+   * teams slider
+   */
+  new Swiper('.teams-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+
+      1200: {
+        slidesPerView: 3,
+        spaceBetween: 20
+      }
+    }
+  });
+
+  /**
    * Animation on scroll
    */
   window.addEventListener('load', () => {
     AOS.init({
       duration: 1000,
-      easing: "ease-in-out",
+      easing: 'ease-in-out',
       once: true,
       mirror: false
-    });
+    })
   });
 
 })()
